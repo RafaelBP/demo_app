@@ -1,4 +1,10 @@
 DemoApp::Application.routes.draw do
+  resources :microposts             #This line maps micropost URI requests with actions in microposts controller
+
+
+  resources :users                  #This line maps users URI requests with actions in users controller
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
