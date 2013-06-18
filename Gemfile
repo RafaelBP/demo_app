@@ -2,6 +2,15 @@
 
 gem 'rails', '3.2.13'
 
+#Aways need this...
+# Ruby racer
+gem 'therubyracer'
+
+#Executing Java Script runtimes
+gem 'execjs'
+
+
+
 group :development do
   gem 'sqlite3', '1.3.5'
 end
@@ -18,14 +27,7 @@ end
 
 gem 'jquery-rails', '2.0.2'
 
-# group :production do
-#   gem 'pg', '0.12.2'
-# end
+group :production do
+  gem 'pg', '0.12.2'
+end
 
-
-#Aways need this...
-# Ruby racer
-gem 'therubyracer'
-
-#Executing Java Script runtimes
-gem 'execjs'
